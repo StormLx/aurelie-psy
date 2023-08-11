@@ -1,10 +1,16 @@
+import logo from './logo.svg?raw';
+
 export const headerHtml = `
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top d-flex align-items-center" data-aos="fade-down" data-aos-duration="300ms">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
-        <h1 class="logo me-auto me-lg-0"><a href="#">Aurélie Millet</a></h1>
-        <!-- UNCOMMENT POUR LE LOGO SI NECESSAIRE -->
-        <!--       <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+               
+        <h1 class="logo me-auto me-lg-0">
+        <a href="#" class="d-flex align-items-center justify-content-center"> 
+        <span>Aurélie Millet</span>  
+        <div class="small-white-logo">${logo}</div></a>
+        </h1>
+
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
                 <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li>

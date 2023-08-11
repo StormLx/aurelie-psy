@@ -86,6 +86,7 @@ a:hover {
 }
 
 #header .logo {
+  color: var(--white-color);
   font-size: 20px;
   margin: 0;
   padding: 0;
@@ -93,6 +94,13 @@ a:hover {
   font-weight: 400;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+.small-white-logo {
+  color: white;
+  width: 50px; /* or whatever width you desire */
+  height: auto; /* to maintain aspect ratio */
+  display: block; /* to handle SVGs that might not size correctly */
 }
 
 #header .logo a {
