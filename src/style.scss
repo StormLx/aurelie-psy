@@ -34,6 +34,12 @@ a:hover {
   text-decoration: none;
 }
 
+li, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .section-title {
   padding-bottom: 40px;
 }
@@ -492,11 +498,14 @@ a:hover {
   }
 
   p {
-    font-weight: 600;
+    font-weight: 500;
+  }
+
+  h2 {
+    padding: 0;
+    margin: 0;
   }
 }
-
-
 
 
 /*--------------------------------------------------------------
@@ -507,7 +516,6 @@ a:hover {
   color: var(--white-color);
   text-align: justify;
 }
-
 
 
 @media (max-height: 500px) {

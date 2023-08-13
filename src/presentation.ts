@@ -1,14 +1,41 @@
 export const presentationHtml = `
-<section id="presentation" class="presentation p-5" >
+<section id="presentation" class="presentation p-5">
 
     <div class="section-title">
-       <h2 data-aos="slide-right">Présentation</h2>
-       <p data-aos="slide-right" data-aos-delay="300">En quelques mots</p>
+        <h2 data-aos="fade-down" data-aos-duration="1000"><i class="bi bi-person-circle"></i> Présentation</h2>
+        <p data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">En quelques mots</p>
     </div>
-    
-    <p>
-    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur corporis cupiditate dolor eos hic in ipsum laborum nam nostrum numquam officia, pariatur quidem quo quos reiciendis similique sit sunt.</span><span>Debitis dolore esse hic molestias nostrum quae temporibus tenetur vero! Accusantium amet distinctio expedita fuga hic iusto minus mollitia nostrum officia quaerat, quidem, recusandae repellendus sequi sint soluta vero voluptate!</span><span>Amet beatae cumque dicta error excepturi fugit, nulla officia, optio quibusdam ratione repudiandae rerum temporibus ut. Ab animi, commodi cupiditate dicta earum explicabo labore natus perferendis repellendus sed temporibus voluptate!</span><span>Dolorem molestias nobis provident? Accusamus amet at, consectetur consequuntur corporis delectus et expedita explicabo iure minima nulla quaerat quia sequi sit ut? Aut autem cumque cupiditate, deleniti eius fugiat vitae.</span><span>Accusamus ad alias assumenda autem consequuntur cumque, dignissimos dolore dolores eligendi, expedita in laborum laudantium minus modi, molestiae mollitia perferendis quasi quo repudiandae sed sit ullam veniam. Fuga harum, odio.</span><span>Accusamus aliquid blanditiis consequuntur dicta distinctio inventore ipsam, itaque laudantium maiores, mollitia nostrum officia reprehenderit sed. Beatae eum ex excepturi, exercitationem in labore minima odit quam recusandae totam voluptate voluptatum!</span><span>At distinctio dolorum ducimus eius error est fugiat impedit magni nostrum numquam officia perferendis perspiciatis possimus provident quaerat quos soluta tempore, vel velit voluptatem! Animi consectetur culpa deleniti fuga iure?</span><span>Aspernatur eos, ex minus nam nobis perspiciatis! Aliquam animi aspernatur aut commodi consequuntur debitis dicta ducimus et fuga in minima modi mollitia neque, nobis non odit porro sapiente totam. Vero.</span><span>Asperiores dolore et quam quas. Assumenda consectetur culpa, dolorem eaque exercitationem labore laborum magnam nesciunt nisi nostrum, omnis porro quas recusandae repellat sed ut vitae voluptate! Autem eaque officiis quae.</span><span>Aut dolores error et natus nostrum praesentium provident unde. Eaque fugiat illo magnam nostrum qui quibusdam, temporibus vel vitae? Harum ipsa recusandae saepe. Culpa dolor fugiat maxime neque quae sit?</span>
+
+    <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+        <strong>Psychologue clinicienne, Praticienne EFT & Conseillère en produits de soins naturels</strong><br><br>
+        Issue de l’Université Toulouse II, j'ai initialement orienté ma pratique clinique vers la psychologie clinique du vieillissement et la neuropsychologie. Ma curiosité professionnelle m’a amenée à explorer les troubles psychologiques associés au vieillissement, qu'il soit optimal ou pathologique.
     </p>
 
+    <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="700">
+        <i class="bi bi-journal-medical"></i> Mes expériences variées et mes formations complémentaires m'ont ensuite guidée vers le domaine de l'oncologie et des soins palliatifs. Cette immersion m’a confrontée à des questionnements profonds, enrichissant ma pratique et m'incitant à envisager d'autres approches pour mes séances.
+    </p>
+
+    <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+        <i class="bi bi-heart-half"></i> Mon approche clinique se base sur une rencontre présente, centrée sur l’ici et maintenant. Je suis là pour vous guider dans votre parcours de vie, en valorisant les ressources intérieures que vous possédez déjà. Mon objectif est de renforcer votre autonomie psychique et de vous aider à redevenir maître de votre vie.
+    </p>
+
+    <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1100">
+        <i class="bi bi-patch-check-fill"></i> Outre un soutien psychologique traditionnel, j’offre, lorsque la situation s’y prête, des sessions de thérapies brèves de libération émotionnelle (EFT). <a href="#"><i class="bi bi-info-circle-fill"></i> [En savoir plus]</a>
+    </p>
+
+    <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1300">
+        <i class="boxicons bx bxs-leaf"></i> Animée par une passion pour la nature et ses bienfaits, je me suis également formée en tant que conseillère en produits de soins naturels. Cette compétence complémentaire me permet de vous suggérer des solutions naturelles pour des problématiques courantes telles que l'anxiété, le stress ou les troubles du sommeil... <a href="#"><i class="bi bi-info-circle-fill"></i> [En savoir plus]</a>
+    </p>
+
+    <h2 class="my-4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="bi bi-card-list"></i> Diplômes</h2>
+    <ul data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1700">
+        <li><i class="bi bi-award"></i> 2023: Certification EFT  (Emotional Freedom Technique)</li>
+        <li><i class="bi bi-award"></i> 2022: Certification de Conseiller en Produits de Soins Naturels</li>
+        <li><i class="bi bi-award"></i> 2016: DU de Soins Palliatifs</li>
+        <li><i class="bi bi-award"></i> 2013: Master de Psychologie clinique et Gérontologie</li>
+        <li><i class="bi bi-award"></i> 2012: DU de Neuropsychologie</li>
+    </ul>
+
 </section>
+
 `;
