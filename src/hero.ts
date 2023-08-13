@@ -9,8 +9,11 @@ export const heroHtml = `
                     <a href="#contact" class="btn-book animated scrollto">Contact</a>
                 </div>
             </div>
-            <div class="round-img"></div>
+            
+            <div class="round-img" data-aos="zoom-in" data-aos-delay="500">
+            </div>
         </div>
     </div>
 </section>
+
 `;
