@@ -510,22 +510,27 @@ li, ul {
   text-align: justify;
   display: flex;
 
+
   .left-section {
     flex: 0.5;
+    padding: 20px;
   }
 
   .right-section {
     flex: 0.5;
-    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 
     img {
       overflow: hidden;
-      object-fit: contain;
+      border-radius: 12px;
+      object-fit: cover;
       width: 100%;
       height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
+      max-width: 500px;
+      max-height: 800px;
     }
   }
 
@@ -587,9 +592,20 @@ li, ul {
     padding-top: 130px;
     padding-bottom: 60px;
   }
+
+
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
 
+}
+
+@media (max-width: 868px) {
+  #presentation {
+    display: block;
+    .right-section {
+      display: none;
+    }
+  }
 
 }
